@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 33, 35);
+    color: white;
+    padding: 5px;
+}
+.navbar i{
+    background-color:rgb(36, 33, 35) ;
+    color: white;
+    padding-top: 5px;
+     padding-right: 50px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding-top: 2px;
+    border-right:2px solid white;
+    padding-right: 70px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+.author{
+    border: none;
+    border-right:2px solid rgb(36, 33, 35);
+}

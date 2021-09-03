@@ -1,0 +1,155 @@
+*{
+outline: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid;
+    border-left: 2px solid black;
+}
+
+.top-left-profile{
+    display: flex;
+    flex-direction: row;
+}
+.top-left-profile img{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    padding: 21px;
+
+}
+.details-user{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 38px 11px;
+}
+.section1{
+    width: 38%;
+    border-right: 2px solid black;
+}
+.myOrder{
+    text-decoration: none;
+}
+.details-user input{
+    background-color: transparent;
+    border: none;
+    height: 18px;
+    border-bottom: 2px solid black;
+    padding: 9px 0px;
+    width: 218px;
+}
+.list-left{
+    display: flex;
+    flex-direction: column;
+}
+.list-left button{
+    border: none;
+    border-top: 2px solid black;
+    border-bottom: 0px;
+    padding: 20px;
+    text-align: left;
+    font-size: medium;
+    font-family: emoji;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.list-left button:hover{
+    background-color: wheat;
+    font-weight: 400;
+    font-family: cursive;
+}
+.list-left i{
+    text-align: right;
+    padding: 8px 14px;
+    background-color: transparent;
+    font-weight: 500;
+    color: black;
+}
+.section2{
+    width: 100%;
+}
+.center-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.center-profile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 7px;
+    padding-bottom: 17px;
+}
+.center-profile button{
+    height: 37px;
+    width: 176px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.detailss1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.detailss2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detailsss{
+
+}
+.detailss1 input{
+margin: 12px;
+    height: 31px;
+    padding: 4px;
+    width: 275px;
+    font-weight: 600;
+}
+.detailss2 input{
+    padding: 10px;
+    width: 574px;
+    margin: 7px;
+    font-weight: 600;
+}
+.update-button{
+    width: 147px;
+    height: 37px;
+    background-color: #17bb17e3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 11px;
+    margin-left: 700px;
+    cursor: pointer;
+}
+.update-button:hover{
+    background-color: yellowgreen;
+    color: #000;
+}
+#input[type="file"]{
+    display: none;
+}
+.label label{
+    font-weight: 500;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    padding: 7px 12px;
+    border-radius: 8px;
+}
+.label label:hover{
+    background-color: green;
+    color: white;
+}

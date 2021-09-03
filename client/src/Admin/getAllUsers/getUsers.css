@@ -1,0 +1,26 @@
+.getUsers{
+    display: flex;
+    justify-content: center;
+    background-color: #493323;
+    
+}
+
+.getUsers-table th{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #e39962;
+    font-family: cursive;
+    font-size: large;
+    border-radius: 6px;
+}
+.getUsers-table td{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #ffdf91;
+    font-size: large;
+    font-family: cursive;
+    border-radius: 6px;
+}
+.getUsers-table{
+    margin: 20px;
+}

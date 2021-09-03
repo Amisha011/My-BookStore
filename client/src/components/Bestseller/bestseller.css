@@ -1,0 +1,66 @@
+.bestsellers{
+    padding-bottom: 30px;
+    background-image: linear-gradient(to left, rgb(224, 188, 211) , rgb(228, 207, 228));
+}
+.bestsellers h1{
+    padding-left: 10px;
+    color: rgb(8, 8, 116)
+}
+.product{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    border-top: 1px solid rgb(61, 59, 59);
+    padding-left: 70px;
+    border-bottom: 1px solid rgb(61, 59, 59);
+    padding-bottom: 10px;
+    
+}
+.productSummary{
+    padding-left: 60px;
+    border-right: 2px solid black;
+    padding-right: 50px;
+    
+}
+.buynow{
+margin-right: 5px;
+height: 27px;
+outline: none;
+background-color: rgb(180, 18, 18);
+color: white;
+border: none;
+border-radius: 3px;
+font-weight: 600;
+}
+.wishlist{
+    margin-right: 5px;
+    height: 27px;
+    outline: none;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.cutprice{
+    text-decoration: line-through;
+    color: red;
+    line-height: 2vh;
+    font-weight: 400;
+}
+.details{
+    padding-left:55px;
+    padding-top: 30px;
+}
+.details b{
+    line-height: 2px;
+    color: brown;
+}
+.details p{
+font-style: italic; 
+}
+.productImage{
+width: 10%;
+height: 10%;
+}

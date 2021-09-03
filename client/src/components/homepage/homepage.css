@@ -1,0 +1,77 @@
+.sliderimg{
+    padding-top:20px; 
+    width: 100%;
+    height: 500px;
+    object-fit: cover
+  }
+.books{
+    display: flex;
+    flex-direction: row;
+}
+.bsbooks{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 9px;
+    padding: 5px 30px;
+    padding-bottom: 16px;
+}
+.bsbooks img{
+    height: 200px;
+    width: 200px;
+}
+.bsbooks h3{
+    line-height: 1px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: brown;
+}
+.sec1 b{
+    line-height: 3;
+    font-size: larger;
+    padding-left: 40px;
+    color: darkblue;  
+}
+.sec1  hr{
+    margin-left: 41px;
+    margin-right: 168px;
+}
+.bsbooks span{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+}
+.bsbooks p{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.books i{
+    margin-top: 96px;
+    font-size: xx-large;
+}
+.authors{
+    display: flex;
+    flex-direction: row;
+}
+.Fauthors{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 19px;
+    padding: 5px 19px;
+}
+.Fauthors p{
+    line-height: 65px;
+    text-align: center;
+    font-weight: 700;
+}
+.Fauthors img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.authors i{
+    margin-top: 55px;
+    font-size: xx-large;
+}

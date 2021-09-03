@@ -1,0 +1,131 @@
+.container-of-page h2{
+
+}
+.wholeCard{
+   
+}
+.container-of-page{
+padding: 30px;
+
+
+}
+.parent-div{
+    display: flex;
+    flex-direction: row;
+}
+.product-heading{
+    padding: 5px 40px;
+    font-family: serif;
+}
+.product-card{
+    width: 285px;
+    text-align: left;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 10px 30px;
+    box-shadow: 0 6px 22px 0 rgb(30 44 65 / 28%)
+}
+.product-image img{
+    width: 286px;
+    height: 241px
+}
+.product-details{
+    position: relative;
+    z-index: 3;
+    background: #fff;
+    padding: 0 10px;
+    /* height: 100%; */
+    /* margin-top: 12px; */
+    box-sizing: border-box;
+    overflow: hidden;
+   
+    padding-bottom: 13px;
+    padding-top: 3px
+    /* border-right: 1px solid black; */
+    /* border-left: 1px solid black; */
+
+}
+.product-details h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #282c3f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.product-details h4{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.product-price{
+    line-height: 15px;
+    margin: 10px 0 6px;
+    white-space: nowrap;
+}
+.products-price{
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 500;
+}
+.product-discountPrice{
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 500;
+    text-decoration: none;
+}
+.product-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.product-btns{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-around;
+    border-top: 2px solid gray;
+
+}
+.product-buy{
+    /* background-color: #ff3e6c;
+    border: 1px solid #ff3e6c; */
+    color: #000;
+    background-color: white;
+    padding: 13px 0px;
+    border: none;
+    cursor: pointer;
+}
+.product-buy:hover{
+    color: #24bf24;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
+.product-wishlist{
+    padding: 13px 0px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.product-wishlist:hover{
+    background-color: white;
+    color: red;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    
+}

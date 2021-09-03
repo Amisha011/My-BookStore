@@ -1,0 +1,27 @@
+.myOrders{
+    
+}
+.myOrders table{
+
+}
+.myOrders th{
+    padding: 10px;
+    border: 1px solid black;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: large;
+    background-color: #ffe4c4f3;
+    border-radius: 4px;
+}
+.myOrders td{
+    padding: 10px;
+    border: 1px solid black;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: large;
+    background-color: #ffe4c436;
+    border-radius: 4px;
+}
+.headingoforder{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+background-color: cadetblue;
+}

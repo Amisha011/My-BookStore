@@ -1,0 +1,25 @@
+.adminContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.adminHomePage{
+    display: flex;
+    justify-content: center;
+    background-color: #5f939a;
+}
+.adminContainer button{
+    margin: 12px 65px;
+    padding: 30px;
+    background-color: #eac8af;
+    font-size: x-large;
+    font-family: cursive;
+    border: none;
+    box-shadow: 10px 10px grey;
+    cursor: pointer;
+    outline: none;
+}
+.adminContainer a{
+    text-decoration: none;
+    color: black;
+}
