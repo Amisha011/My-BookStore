@@ -12,6 +12,7 @@ padding: 30px;
 .parent-div{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .product-heading{
     padding: 5px 40px;
